@@ -1,0 +1,30 @@
+{
+  "name": "d-r",
+  "version": "1.0.0",
+  "description": "Aunque los hospitales en Tijuana cuentan con sistemas internos para gestionar donaciones de sangre, **existe un gran vacío cuando los pacientes deben conseguir donadores por su cuenta**. Este escenario es muy común cuando:",
+  "main": "index.js",
+  "scripts": {
+  "start": "node app.js",
+  "dev": "nodemon app.js"
+}
+,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KOfast/D-R.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KOfast/D-R/issues"
+  },
+  "homepage": "https://github.com/KOfast/D-R#readme",
+  "dependencies": {
+    "dotenv": "^17.1.0",
+    "express": "^5.1.0",
+    "mssql": "^11.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
